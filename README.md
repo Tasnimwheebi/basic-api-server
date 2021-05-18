@@ -14,7 +14,7 @@
 
 ## **Setup**
 * .env requirements
-  * PORT - Port Number
+  * PORT - 3000
 
 
 ## **Running the app**

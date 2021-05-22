@@ -4,7 +4,7 @@
 ## LAB - 03
 ## **Deployment Test**
 ## **Author: Tasnim Wheebi**
-[PR LINK](https://github.com/Tasnimwheebi/basic-api-server/pull/1)
+[PR LINK](https://github.com/Tasnimwheebi/basic-api-server/pull/2)
 
 
 [Heroku APP](https://tasnim-basic-api-server.herokuapp.com/)
@@ -39,7 +39,7 @@
 
      * `/api/v1/clothes`  : json object 
 
-        [
+            [
 
           {
            "id": "60a65f8c4839a32019dd4857",

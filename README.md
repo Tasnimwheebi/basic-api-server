@@ -41,11 +41,11 @@
 
             [
 
-          {
-           "id": "60a65f8c4839a32019dd4857",
-            "name": "T-shirt",
-            "color": "green"
-            }
+                {
+                 "id": "60a65f8c4839a32019dd4857",
+                 "name": "T-shirt",
+                  "color": "green"
+                  }
 
            ]  
 

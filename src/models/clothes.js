@@ -1,7 +1,13 @@
 'use strict';
 
+///// requiring the Universally Unique Identifiers //////
 const uuid = require('uuid').v4;
 
+////////////////////////////////////
+/// Class clothes with methods  ///
+/// read , create , update and ///
+/// delete the RECORDS        ///
+////////////////////////////////
 class Clothes {
     constructor() {
         this.db = [];

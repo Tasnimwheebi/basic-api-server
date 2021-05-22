@@ -1,17 +1,39 @@
 'use strict';
-
+///////access express/////////////
 const express = require('express');
+
+//////// accssing the model of the class food from the js file /////////
 const Food = require('../models/food.js');
 
+
+///////// creating a new object from the class in js file ////////
 const food = new Food();
+
 const router = express.Router();
 
+
+///////////////////////////
+//////// ROUTES  /////////
+/////////////////////////
+
+///// route get method for read /////
 router.get('/',getFood);
 router.get('/:id',getFoodWithId);
+
+///// route post method for create ////   
 router.post('/',createFood);
+
+////// route put method for update ////
 router.put('/:id',updateFood);
+
+////// route delete method for delete /////
 router.delete('/:id',deleteFood);
 
+
+
+//////////////////////////////
+//// middleware functions////
+////////////////////////////
 function getFood (req,res){
     const resObj = food.read();
     res.json(resObj);

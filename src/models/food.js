@@ -1,7 +1,14 @@
 'use strict';
 
+///// requiring the Universally Unique Identifiers //////
 const uuid = require('uuid').v4;
 
+
+////////////////////////////////////
+/// Class food with methods     ///
+/// read , create , update and ///
+/// delete the RECORDS        ///
+////////////////////////////////
 class Food {
     constructor() {
         this.db = [];
